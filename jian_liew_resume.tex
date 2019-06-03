@@ -45,7 +45,8 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    % \textbf{#1}{: #2 \vspace{-2pt}}
+    {#1}{ #2 \vspace{-2pt}}
   }
 }
 
@@ -84,32 +85,51 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Monash University}{Melbourne, Australia}
-      {Master of Information Technology (Professional) - Thesis;  GPA: 4.00}{Aug. 2013 -- Aug. 2015}
+      {Professional Year ICT}{Jan. 2016 -- Dec. 2016}
+    \resumeSubheading
+      {Monash University}{Melbourne, Australia}
+      {Master of Information Technology (Professional) - Thesis}{Aug. 2013 -- Aug. 2015}
+      \resumeItemListStart
+        \resumeItem{}{Faculty of Information Technology Merit Scholarship}
+        \resumeItem{}{Completed thesis titled "Category R-tree", a data structure for optimised spatial queries.}
+      \resumeItemListEnd
     \resumeSubheading
       {Swinburne University of Technology}{Melbourne, Australia}
       {Bachelor of Science (Computer Science \& Software Engineering);  GPA: 3.91}{Jul. 2010 -- Dec. 2012}
-  \resumeSubHeadingListEnd
+      \resumeItemListStart
+        \resumeItem{}{Swinburne University of Technology Merit Scholarship}
+        \resumeItem{}{Won Corporate and Industry Award by obtaining the highest GPA in the course.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Monash University, Caulfield Campus}{Mountain View, CA}
+      {Monash University}{Melbourne, Australia}
       {Sessional Lecturer \& Teaching Associate}{Oct 2015 - Present}
       \resumeItemListStart
-        \resumeItem{ASP.NET MVC5}
-          {Contributed signficantly to the restructuring of FIT5032 - Internet Applications Development. Previous offerings of the unit was based on ASP.NET Web Forms}
+        \resumeItem{\textbf{FIT9131 - Programming Foundations in Java.}}
+        {Lectured for Semester 2, 2018. Introduced and utilised \textit{JPLAG} as a tool to detect code similarity for student
+        assignments}   
+        \resumeItem{FIT9134 - Computer Architecture \& Operating Systems}
+        {}
+        \resumeItem{FIT5032 - Internet Applications Development}
+          {Contributed signficantly to the restructuring and enhancements of the unit. Previous offerings of the unit was based on ASP.NET Web Forms}   
+        \resumeItem{FIT5120 - Industry Experience Project}
+          {}
+        \resumeItem{FIT5136 - Software Engineering}
+          {}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+      {Sisuwellness}{Melbourne, Australia}
+      {Android Developer}{Jan 2014 - Oct 2016}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
+        \resumeItem{Push Notifications - }
+          {Created Push Notifications features using Firebase}
+        \resumeItem{Material Design - }
           {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
         \resumeItem{Workflows}
           {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
@@ -131,28 +151,32 @@
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
 
 %
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+% --------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Java, Python, JavaScript, C, C++, C\#, SQL, PHP, Shell Scripting}     
+   }
+   \item{
+    \textbf{Technologies}{: Data Warehousing, Git, RESTful Web Service}
+   }
+ \resumeSubHeadingListEnd
+
+ \section{Visa Status}
+ \textbf{Permanent Resident} 
 
 
 %-------------------------------------------
